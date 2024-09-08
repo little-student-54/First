@@ -1,0 +1,48 @@
+body{
+
+    font-family: Arial,sans-serif;
+
+
+}
+
+.Container{
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-image: linear-gradient(45deg,#ec3a3a,#edfd0d,#50f085);
+
+    box-shadow: 3px 5px 10px rgb(207,145,145);
+    border-radius: 5px;
+
+}
+
+.assitant-box{
+
+    position: fixed;
+    width: 300px;
+    background-image: linear-gradient(#fd2020,#e7ff12,#36f5db);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgba(228,35,350.1);
+
+}
+
+.assitant-box h3{
+
+    margin: 0 0 10px 0;
+}
+ .assitant-box p{
+     margin: 0;
+ }
+
+ .assitant-input{
+
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+ }
